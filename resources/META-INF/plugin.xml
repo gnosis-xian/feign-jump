@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>top.agno.idea.plugin.feign.jump</id>
+  <name>feign-jump</name>
+  <version>1.0</version>
+  <vendor email="gaojing1996@vip.qq.com" url="https://github.com/gnosis-xian">Gnosis</vendor>
+
+  <description><![CDATA[
+      feign-jump<br>
+      <em>v1.0</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Change log.<br>
+      <em>2020-7-17. init project.</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
